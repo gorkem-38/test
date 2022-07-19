@@ -3,7 +3,9 @@
   
   
   
-  
+ .bg-white{
+	background-color: white;
+ } 
 .display{
 	display: flex;
 	align-items: center;
@@ -13,7 +15,7 @@
 .link-beige{
 	color: bisque;
 }
-section{
+.h-body{
 	background: bisque;
 	border-radius: 10px;
 	margin-top: 14px;
@@ -67,7 +69,7 @@ footer{
     background: #282727ed;
     height: 320px;
     width: 102%;
-	margin-top: 632px;
+	margin-top: 20%;
 	margin-left: -17px;
 }
 .text-cadet-blue{
@@ -77,4 +79,90 @@ footer{
 .text-beige{
 	color: bisque;
 	background-color: cadetblue;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.formulaire{
+	background-color: bisque;
+}
+
+form {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+form h1 {
+  font-size: 20px;
+}
+form .separation {
+  width: 100%;
+  height: 1px;
+  background-color: #747cdf;
+}
+form .body-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+form .corps-formulaire .crew {
+  position: relative; /* Pour mettre positionner l’élément dans le flux normal de la page */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+form .body-form .left .crew input {
+  margin-top: 5px;
+  padding: 10px 5px 10px 30px;
+  border: 1px solid #c9c9c9;
+  outline-color: #747cdf;
+  border-radius: 5px;
+}
+form .body-form .left .crew i {
+  position: absolute; /* positionné par rapport à son parent le plus proche positionné */
+  left: 0;
+  top: 25px;
+  padding: 9px 8px;
+  color: #747cdf;
+}
+form .body-form .droite {
+  margin-left: 40px;
+}
+form .body-form .right .groupe {
+  height: 100%;
+}
+form .body-form .right .crew textarea {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 2px solid #747cdf;
+  outline: none;
+  border-radius: 5px;
+  resize: none;
+  height: 72%;
+}
+form .foot-form button {
+  margin-top: 10px;
+  background-color: #747cdf;
+  color: white;
+  font-size: 15px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+form .foot-form button:hover {
+  transform: scale(1.05);
+}
+.formulaire{
+	background-color: bisque;
+	display: flex;
+}
+
+@media screen and (max-width: 920px) {
+  form .body-form .right {
+    margin-left: 0px;
+  }
 }
