@@ -1,0 +1,49 @@
+.text-red {
+    color: red;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.my-10 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.mx-10 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.pt-4 {
+    padding-top: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.w-screen {
+    width: 100vw;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
