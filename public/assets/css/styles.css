@@ -4,7 +4,7 @@
   
   
  .bg-white{
-	background-color: white;
+
  } 
 .display{
 	display: flex;
@@ -12,13 +12,26 @@
 	text-decoration: none;
 ;
 }
+.text-decoration-b{
+  color: bisque;
+}
 .link-beige{
 	color: bisque;
 }
 .h-body{
 	background: bisque;
-	border-radius: 10px;
 	margin-top: 14px;
+
+}
+.body-form{
+	margin: 37px;
+}
+.font-size{
+	font-size: 284%;
+	width: 505px;
+	padding: 10px;
+}
+.text-form{
 
 }
 .vid-house{
@@ -28,7 +41,7 @@
 	background-color: white;
 }
 .vid1{
-	width: 174px;
+	width: 297px;
 }
 .vid2{
 	width: 55%;
@@ -46,7 +59,7 @@
 	width: 104%;
 	height: 70px;
 	padding: 0 0 0 0 !important;
-	background: #282727ed;
+	background: cadetblue;
 	border-bottom: 2px solid rgba(255, 192, 76, 80%);
 	position: relative;
 	margin-left: -11px;
@@ -65,8 +78,8 @@
 	padding-right: 10%;
 	padding-left: 14px;
 }
-footer{
-    background: #282727ed;
+.bg-cadet-blue{
+    background: cadetblue;
     height: 320px;
     width: 102%;
 	margin-top: 20%;
@@ -92,18 +105,19 @@ form {
   background-color: white;
   border-radius: 10px;
 }
-form h1 {
+form .font-blue {
   font-size: 20px;
 }
 form .separation {
   width: 100%;
   height: 1px;
-  background-color: #747cdf;
+  background-color: cadetblue;
 }
 form .body-form {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 30px;
+  background-color: cadetblue;
 }
 form .corps-formulaire .crew {
   position: relative; /* Pour mettre positionner l’élément dans le flux normal de la page */
@@ -111,11 +125,11 @@ form .corps-formulaire .crew {
   display: flex;
   flex-direction: column;
 }
-form .body-form .left .crew input {
+form .body-form .left .crew .b-cadetblue {
   margin-top: 5px;
   padding: 10px 5px 10px 30px;
-  border: 1px solid #c9c9c9;
-  outline-color: #747cdf;
+  border: 1px solid white;
+  outline-color: cadetblue;
   border-radius: 5px;
 }
 form .body-form .left .crew i {
@@ -123,12 +137,12 @@ form .body-form .left .crew i {
   left: 0;
   top: 25px;
   padding: 9px 8px;
-  color: #747cdf;
+  color: cadetblue;
 }
-form .body-form .droite {
+form .body-form .right {
   margin-left: 40px;
 }
-form .body-form .right .groupe {
+form .body-form .right .crew {
   height: 100%;
 }
 form .body-form .right .crew textarea {
@@ -141,10 +155,10 @@ form .body-form .right .crew textarea {
   resize: none;
   height: 72%;
 }
-form .foot-form button {
+form .foot-form .send {
   margin-top: 10px;
-  background-color: #747cdf;
-  color: white;
+  background-color: bisque;
+  color: cadetblue;
   font-size: 15px;
   border: none;
   padding: 10px 20px;
@@ -153,13 +167,29 @@ form .foot-form button {
   cursor: pointer;
   transition: transform 0.5s;
 }
-form .foot-form button:hover {
+.send{
+	margin-top: 94px;
+}
+form .foot-form .send:hover {
   transform: scale(1.05);
 }
 .formulaire{
 	background-color: bisque;
 	display: flex;
 }
+.crew{
+  display: grid;
+  text-align: center;
+}
+.left{
+display:block ;
+background-color: bisque;
+}
+.grid{
+  display: grid;
+  background-color: bisque;
+}
+
 
 @media screen and (max-width: 920px) {
   form .body-form .right {
