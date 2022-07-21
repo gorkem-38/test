@@ -100,7 +100,7 @@
 	background-color: bisque;
 }
 
-form {
+.form-p3-bg {
   padding: 30px;
   background-color: white;
   border-radius: 10px;
@@ -113,26 +113,26 @@ form .separation {
   height: 1px;
   background-color: cadetblue;
 }
-form .body-form {
+.form-p3-bg .bg-form {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 30px;
   background-color: cadetblue;
 }
-form .corps-formulaire .crew {
+.form-p3-bg .corps-formulaire .grid-align {
   position: relative; /* Pour mettre positionner l’élément dans le flux normal de la page */
   margin-top: 20px;
   display: flex;
   flex-direction: column;
 }
-form .body-form .left .crew .b-cadetblue {
+.form-p3-bg .body-form .block-bg .grid-align .b-cadetblue {
   margin-top: 5px;
   padding: 10px 5px 10px 30px;
   border: 1px solid white;
   outline-color: cadetblue;
   border-radius: 5px;
 }
-form .body-form .left .crew i {
+.form-p3-bg .body-form .left .grid-align .icon {
   position: absolute; /* positionné par rapport à son parent le plus proche positionné */
   left: 0;
   top: 25px;
@@ -142,20 +142,20 @@ form .body-form .left .crew i {
 form .body-form .right {
   margin-left: 40px;
 }
-form .body-form .right .crew {
+form .body-form .right .grid-align {
   height: 100%;
 }
-form .body-form .right .crew textarea {
+.form-p3-bg .body-form .right .crew textarea {
   margin-top: 5px;
   padding: 10px;
   background-color: #f1f1f1;
-  border: 2px solid #747cdf;
+  border: 2px solid cadetblue;
   outline: none;
   border-radius: 5px;
   resize: none;
   height: 72%;
 }
-form .foot-form .send {
+.form-p3-bg .foot-form .send {
   margin-top: 10px;
   background-color: bisque;
   color: cadetblue;
@@ -170,24 +170,28 @@ form .foot-form .send {
 .send{
 	margin-top: 94px;
 }
-form .foot-form .send:hover {
+.form-p3-bg .foot-form .send:hover {
   transform: scale(1.05);
 }
 .formulaire{
 	background-color: bisque;
 	display: flex;
 }
-.crew{
+.grid-align{
   display: grid;
   text-align: center;
 }
-.left{
+.block-bg{
 display:block ;
 background-color: bisque;
 }
-.grid{
+.grid-bg{
   display: grid;
   background-color: bisque;
+}
+.vid4{
+  width: 100%;
+  height: auto;
 }
 
 
