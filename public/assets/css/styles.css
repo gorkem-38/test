@@ -132,7 +132,7 @@ form .separation {
   outline-color: cadetblue;
   border-radius: 5px;
 }
-.form-p3-bg .body-form .left .grid-align .icon {
+.form-p3-bg .body-form .block-bg .grid-align .icon {
   position: absolute; /* positionné par rapport à son parent le plus proche positionné */
   left: 0;
   top: 25px;
